@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name">rebooty</string>
-	
+    <string name="app_name">Rebooty</string>
+    <string name="about">About Rebooty</string>
     <string name="reboot">Reboot</string>
     <string name="reboot_message">Are you sure you want to reboot the system?</string>
     <string name="reboot_bootloader">Reboot bootloader</string>

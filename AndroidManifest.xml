@@ -15,15 +15,6 @@
         <service android:name="com.matoski.rebooty.service.CommandIntentService" />
 
         <activity
-            android:name="com.matoski.rebooty.activity.BlankActivity"
-            android:icon="@drawable/ic_launcher"
-            android:label="@string/reboot"
-            android:theme="@android:style/Theme.Dialog" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.matoski.rebooty.activity.RebootActivity"
             android:icon="@drawable/ic_reboot"
             android:label="@string/reboot"
@@ -34,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name="com.matoski.rebooty.activity.PowerOffActivity"
             android:icon="@drawable/ic_shutdown"
@@ -45,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name="com.matoski.rebooty.activity.RebootBootloaderActivity"
             android:icon="@drawable/ic_bootloader"
@@ -56,6 +49,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name="com.matoski.rebooty.activity.RebootRecoveryActivity"
             android:icon="@drawable/ic_recovery"
@@ -67,6 +61,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
     </application>
 
 </manifest>

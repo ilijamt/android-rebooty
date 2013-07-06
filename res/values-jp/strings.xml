@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">リブーティー</string>
+    <string name="about">リブーティーについて</string>
+    <string name="reboot">再起動</string>
+    <string name="reboot_message">システムを再起動しますがよろしいですか？</string>
+    <string name="reboot_bootloader">ブートボーダーの再起動</string>
+        <string name="reboot_bootloader_message">ブートローダーを際起動しますがよろしいですか</string>
+    <string name="reboot_recovery">リカバリーの再起動</string>
+    <string name="reboot_recovery_message">リカバリーモードの再起動をしますがよろしいですか？</string>
+    <string name="poweroff">終了</string>
+    <string name="poweroff_message">デバイスを終了しますがよろしいですか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+</resources>

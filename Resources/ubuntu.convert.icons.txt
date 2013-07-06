@@ -1,0 +1,34 @@
+ldpi
+convert ic_bootloader.png -resize 30 ic_bootloader.png 
+convert ic_reboot.png -resize 30 ic_reboot.png 
+convert ic_recovery.png -resize 30 ic_recovery.png 
+convert ic_shutdown.png -resize 30 ic_shutdown.png 
+convert ic_launcher.png -resize 38 ic_launcher.png 
+
+mdpi
+convert ic_bootloader.png -resize 40 ic_bootloader.png 
+convert ic_reboot.png -resize 40 ic_reboot.png 
+convert ic_recovery.png -resize 40 ic_recovery.png 
+convert ic_shutdown.png -resize 40 ic_shutdown.png 
+convert ic_launcher.png -resize 48 ic_launcher.png 
+
+hdpi
+convert ic_bootloader.png -resize 60 ic_bootloader.png 
+convert ic_reboot.png -resize 60 ic_reboot.png 
+convert ic_recovery.png -resize 60 ic_recovery.png 
+convert ic_shutdown.png -resize 60 ic_shutdown.png 
+convert ic_launcher.png -resize 72 ic_launcher.png 
+
+xhdpi
+convert ic_bootloader.png -resize 80 ic_bootloader.png 
+convert ic_reboot.png -resize 80 ic_reboot.png 
+convert ic_recovery.png -resize 80 ic_recovery.png 
+convert ic_shutdown.png -resize 80 ic_shutdown.png 
+convert ic_launcher.png -resize 96 ic_launcher.png 
+
+xxhdpi
+convert ic_bootloader.png -resize 120 ic_bootloader.png 
+convert ic_reboot.png -resize 120 ic_reboot.png 
+convert ic_recovery.png -resize 120 ic_recovery.png 
+convert ic_shutdown.png -resize 120 ic_shutdown.png 
+convert ic_launcher.png -resize 144 ic_launcher.png 
