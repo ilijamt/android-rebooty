@@ -1,7 +1,9 @@
-Do you want to reboot and your ROM doesn't have that shortcut?
-Do you want to enter the recovery and you don't want to enter the line manually into the terminal?
-Do you want to enter your bootloader to use fastboot and there is no way reboot into it?
+Rebooting, powering off your device has never been easier
 
-Be afraid no more! This simple aplication gives you 3 shortcuts to do all these 3 tasks without having to type the lines into command lines. You just need root permissions and you're good to go!!!
-A single click in the icon and boom, the device will do as its told, hassle free, easy and FAST, no interface involved or strange permissions asked, it only does what it's advertised, NOTHING MORE.
-Can't be more easy than this.
+Warning: REQUIRES ROOT!
+
+Do you want to reboot your device, reboot into bootloader, reboot into recovery, or just power off the device?
+
+Then this application is for you, it's only function is to provide you with a way of doing just that and nothing else.
+
+It will create 4 entries in the launcher, from which you can choose which option you want, worried about executing them accidently, don't worry you will have to confirm any of the actions before they are executed.
