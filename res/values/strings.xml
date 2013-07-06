@@ -1,5 +1,15 @@
 <resources>
 
     <string name="app_name">rebooty</string>
-
+	
+    <string name="reboot">Reboot</string>
+    <string name="reboot_message">Are you sure you want to reboot the system?</string>
+    <string name="reboot_bootloader">Reboot bootloader</string>
+        <string name="reboot_bootloader_message">Are you sure you want to reboot to the bootloader?</string>
+    <string name="reboot_recovery">Reboot recovery</string>
+    <string name="reboot_recovery_message">Are you sure you want to reboot in recovery mode?</string>
+    <string name="poweroff">Power off</string>
+    <string name="poweroff_message">Are you sure you want to power off the device?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

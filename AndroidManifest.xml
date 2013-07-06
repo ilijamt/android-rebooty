@@ -12,6 +12,61 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <service android:name="com.matoski.rebooty.service.CommandIntentService" />
+
+        <activity
+            android:name="com.matoski.rebooty.activity.BlankActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/reboot"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.matoski.rebooty.activity.RebootActivity"
+            android:icon="@drawable/ic_reboot"
+            android:label="@string/reboot"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.matoski.rebooty.activity.PowerOffActivity"
+            android:icon="@drawable/ic_shutdown"
+            android:label="@string/poweroff"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.matoski.rebooty.activity.RebootBootloaderActivity"
+            android:icon="@drawable/ic_bootloader"
+            android:label="@string/reboot_bootloader"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.matoski.rebooty.activity.RebootRecoveryActivity"
+            android:icon="@drawable/ic_recovery"
+            android:label="@string/reboot_recovery"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
