@@ -8,6 +8,10 @@ Then this application is for you, it's only function is to provide you with a wa
 
 It will create 4 entries in the launcher, from which you can choose which option you want, worried about executing them accidentally, don't worry you will have to confirm any of the actions before they are executed.
 
+Tested on:
+Nexus 7: (All options work)
+Galaxy S2: (Reboot bootloader doesn't work, instead it will boot to download mode)
+
 Released under Apache 2.0 License
 
 https://github.com/ilijamt/android-rebooty

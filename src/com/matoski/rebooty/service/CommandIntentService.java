@@ -1,12 +1,9 @@
 /*
  * Copyright 2013 Ilija Matoski (ilijamt@gmail.com)
- * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
- *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ * http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,7 +29,7 @@ public class CommandIntentService extends IntentService {
 	 * The tag used when logging with {@link Log}
 	 */
 	private static final String LOG_TAG = CommandIntentService.class.getName();
-	
+
 	/**
 	 * Constructor
 	 */
@@ -40,26 +37,35 @@ public class CommandIntentService extends IntentService {
 		super(LOG_TAG);
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
 	 * @see android.app.IntentService#onHandleIntent(android.content.Intent)
 	 */
 	@Override
 	protected void onHandleIntent(Intent intent) {
-		
+
 		final String action = intent.getAction();
 
-		if ( action.equals(Constants.KEY_ACTION_BOOTLOADER)) {
-			Shell.SU.run("reboot bootloader");
-		} else if ( action.equals(Constants.KEY_ACTION_POWEROFF)) {
+		if (action.equals(Constants.KEY_ACTION_BOOTLOADER)) {
+
+			final String brand = android.os.Build.BRAND;
+			// if it's galaxy phone then it's download mode and not bootloader
+			if (brand.contains("Samsung")) {
+				Shell.SU.run("reboot download");
+			} else {
+				Shell.SU.run("reboot bootloader");
+			}
+
+		} else if (action.equals(Constants.KEY_ACTION_POWEROFF)) {
 			Shell.SU.run("reboot -p");
-		} else if ( action.equals(Constants.KEY_ACTION_REBOOT)) {
+		} else if (action.equals(Constants.KEY_ACTION_REBOOT)) {
 			Shell.SU.run("reboot");
-		} else if ( action.equals(Constants.KEY_ACTION_RECOVERY)) {
+		} else if (action.equals(Constants.KEY_ACTION_RECOVERY)) {
 			Shell.SU.run("reboot recovery");
 		} else {
 			Log.w(LOG_TAG, "Invalid action");
 		}
-		
+
 	}
 
 }
