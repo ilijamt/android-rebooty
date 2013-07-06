@@ -1,0 +1,15 @@
+Rebooting, powering off your device has never been easier
+
+Warning: REQUIRES ROOT!
+
+Do you want to reboot your device, reboot into bootloader, reboot into recovery, or just power off the device?
+
+Then this application is for you, it's only function is to provide you with a way of doing just that and nothing else.
+
+It will create 4 entries in the launcher, from which you can choose which option you want, worried about executing them accidentally, don't worry you will have to confirm any of the actions before they are executed.
+
+Released under Apache 2.0 License
+
+https://github.com/ilijamt/android-rebooty
+
+Any one who want's to contribute is welcomed 
