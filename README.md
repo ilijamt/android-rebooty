@@ -1,3 +1,8 @@
+<a href="https://play.google.com/store/apps/details?id=com.matoski.rebooty">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+</a>
+
 Rebooty
 -------
 Rebooting, powering off your device has never been easier
@@ -13,11 +18,6 @@ It will create 4 entries in the launcher, from which you can choose which option
 Tested on:
 Nexus 7: (All options work)
 Galaxy S2: (Reboot bootloader doesn't work, instead it will boot to download mode)
-
-<a href="https://play.google.com/store/apps/details?id=com.matoski.rebooty">
-  <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-</a>
 
 Translations
 ------------
