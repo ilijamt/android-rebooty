@@ -7,7 +7,7 @@ Rebooty
 -------
 Rebooting, powering off your device has never been easier
 
-Warning: REQUIRES ROOT!
+**Warning: REQUIRES ROOT!**
 
 Do you want to reboot your device, reboot into bootloader, reboot into recovery, or just power off the device?
 
